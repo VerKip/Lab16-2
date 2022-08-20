@@ -2,11 +2,26 @@
   {
     "Code": 1,
     "Name": "хлеб",
-    "Price": 20
+    "Price": 35
   },
   {
     "Code": 2,
     "Name": "булка",
-    "Price": 15
+    "Price": 30
+  },
+  {
+    "Code": 3,
+    "Name": "кефир",
+    "Price": 45
+  },
+  {
+    "Code": 4,
+    "Name": "молоко",
+    "Price": 40
+  },
+  {
+    "Code": 5,
+    "Name": "сыр",
+    "Price": 100
   }
 ]

@@ -14,7 +14,7 @@ namespace Lab16_2
     {
         static void Main(string[] args)
         {
-            const int n = 2;
+            const int n = 5;
             Product[] products = new Product[n];
             for (int i = 0; i < n; i++)
             {
