@@ -31,7 +31,7 @@ namespace Lab16_2
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic),
                 WriteIndented = true
             };
-            string JsonString = JsonSerializer.Serialize(products);
+            string JsonString = JsonSerializer.Serialize(products, options);
             using (StreamWriter sw = new StreamWriter("../../../Products.json"))
             {
                 sw.WriteLine(JsonString);
